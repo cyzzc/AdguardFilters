@@ -11,10 +11,14 @@
 ! that is why cosmetic rule `###credential_picker_container` does not work
 ! https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API
 ! Warning: check, if auth using Google is not broken
-||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru|stackoverflow.com|vc.ru|pikabu.ru|nytimes.com|baltimoresun.com|rozetka.com.ua|estadao.com.br|medium.com|gzt.com|mercurynews.com|drukarnia.com.ua|diffchecker.com|kaystls.site|kaystls.site|overclock.net|nissanclub.com|crazygames.com|notion.so
+||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru|stackoverflow.com|vc.ru|pikabu.ru|nytimes.com|baltimoresun.com|rozetka.com.ua|estadao.com.br|medium.com|gzt.com|mercurynews.com|drukarnia.com.ua|diffchecker.com|kaystls.site|kaystls.site|overclock.net|nissanclub.com|crazygames.com|notion.so|usnews.com
 !
 ! SECTION: Popups - Regular rules
 !
+jaya9.win#$#html.overflow-y-hidden { overflow: auto !important; }
+jaya9.win#$#.v-dialog__content { display: none !important; }
+jaya9.win#$#.v-overlay { display: none !important; }
+otvfoco.com.br###modalPushArticle
 yes.fit##.needsclick
 ishachoku.com##.fix-ad
 jpsk.jp###footer-popup
@@ -5556,7 +5560,7 @@ docs.microsoft.com##.rating-helpful-active
 denverpost.com,theoaklandpress.com,twincities.com,macombdaily.com,delcotimes.com,chicoer.com,pe.com##.info-box.Mg2-connext > .info-box-body
 kinokadr.ru###floatleft
 androidauthority.com##.gcap-shown
-azattyq.org,currenttime.tv,radiosvoboda.org,amerikaninsesi.com,svoboda.azureedge.net,svoboda.org##body .slide-in-wg
+golosameriki.com,azattyq.org,currenttime.tv,radiosvoboda.org,amerikaninsesi.com,svoboda.azureedge.net,svoboda.org##body .slide-in-wg
 sunfood.com###pdv4overlay
 wixsite.com,wix.com,boxabl.com,sage.exchange,strive-magazine.de,stone-stream.com,twinlab.com###POPUPS_ROOT
 anti-malware.ru###parent_popup_ank
