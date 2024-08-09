@@ -22,6 +22,10 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185852
+@@://www.sinya.com.tw^$stealth=ip
+! https://github.com/AdguardTeam/AdguardFilters/issues/185842
+@@||gws.unicredit.ru/branch/map?$stealth=referrer,domain=unicreditbank.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185847
 @@||cdn-manga.com^$image,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183849
@@ -2523,6 +2527,7 @@
 ! https://github.com/AdguardTeam/CoreLibs/issues/1645 [Stealth Mode - Protect from DPI]
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
 !
+@@||hikari.faq.rakuten.net^$stealth=dpi
 @@||defensa.gob.es^$stealth=dpi
 @@||temu.com^$stealth=dpi
 @@||hankyung.com^$stealth=dpi

@@ -115,6 +115,14 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185899
+mrwallpaper.com#@#.ad_marker
+mrwallpaper.com#@#.ad-enabled
+! https://github.com/AdguardTeam/AdguardFilters/issues/185319
+lover934.net#%#//scriptlet('abort-current-inline-script', 'document.write')
+lover934.net#%#//scriptlet('set-constant', 'checkerimg', 'noopFunc')
+lover934.net#%#//scriptlet('abort-current-inline-script', 'setTimeout', 'document.getElementById')
+@@||tpc.googlesyndication.com/daca_images/simgad/$domain=lover934.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185346
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=typingtest.com
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -169,8 +177,6 @@ makeuseof.com,howtogeek.com#@#.ad-zone-container
 !#endif
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=worldstar.com|worldstarhiphop.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/180592
-@@.m3u8$xmlhttprequest,domain=thestreameast.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180746
 xda-developers.com#@#.ad-zone:not(.textads)
 ||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,important,domain=xda-developers.com
