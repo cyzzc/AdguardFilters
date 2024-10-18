@@ -3141,7 +3141,7 @@ kanalb.com.tr##div[class^="widget_banner_"]
 /images/site_reklam^$domain=kanalb.com.tr
 sporx.com##div[id^="dfp_"]
 aykiri.com.tr,megahaber27.com,bihavadis.com,kafakalem.com,thecruiselife.com.tr,takamedya.com,adalet.tv,haberasi.com,kadinveotesi.com,ajansgazetesi.com.tr,avcilarhabermerkezi.com,sanattanyansimalar.com,turgutluyanki.com,denizlidesiyaset.com,finans365.com,afyonhaber.com,malatyaozhaber.com,kulahaber.net,hayrankaldim.com,yenibakis.com.tr,habercicanakkale.com,haber16.com,karamanca.net,denizgazete.com,kaptanhaber.com,oncusehir.com,turgutlupostasi.com,gebzeyenigun.com,imaret.com.tr,rehbercanakkale.com,turkinfo.nl,habercuk.com,habersanliurfa.net,mizahdunyam.com,denizlikenthaber.com,tarihistan.org,haberturizm.com,gazete365.com##.detailp > .img_position_left
-aykiri.com.tr,afyonkenthaber.com,tamgaturk.com,ulusalhaber.com.tr##.post-body > .img_position_left
+gazetegercek.com.tr,aykiri.com.tr,afyonkenthaber.com,tamgaturk.com,ulusalhaber.com.tr##.post-body > .img_position_left
 ||vidoza.net/rbs^$third-party
 sahibinden.com##.popular-products
 ozengen.com###text-html-widget-2
@@ -3918,6 +3918,16 @@ hdfilmcehennem.live#$##reki1 { display: none!important; }
 hdfilmcehennem.live#$##kendisi { display: block!important; }
 oyunu.com.tr#$##bir.oynama { display: none !important; }
 oyunu.com.tr#$##iki.oynama { display: block !important; }
+!
+! webspor*.xyz - frequently changed domains
+[$domain=/webspor\d+\.xyz/]##.nomobil
+[$domain=/webspor\d+\.xyz/]##.list > div.item:has(> a[target="_blank"])
+[$domain=/webspor\d+\.xyz/]#$?#video > style { remove: true; }
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+webspor102.xyz,webspor103.xyz,webspor104.xyz,webspor105.xyz,webspor106.xyz,webspor107.xyz,webspor108.xyz,webspor109.xyz,webspor110.xyz,webspor111.xyz,webspor112.xyz,webspor113.xyz,webspor114.xyz,webspor115.xyz,webspor116.xyz,webspor117.xyz,webspor118.xyz,webspor119.xyz,webspor120.xyz,webspor121.xyz,webspor122.xyz,webspor123.xyz,webspor124.xyz,webspor125.xyz##.nomobil
+webspor102.xyz,webspor103.xyz,webspor104.xyz,webspor105.xyz,webspor106.xyz,webspor107.xyz,webspor108.xyz,webspor109.xyz,webspor110.xyz,webspor111.xyz,webspor112.xyz,webspor113.xyz,webspor114.xyz,webspor115.xyz,webspor116.xyz,webspor117.xyz,webspor118.xyz,webspor119.xyz,webspor120.xyz,webspor121.xyz,webspor122.xyz,webspor123.xyz,webspor124.xyz,webspor125.xyz##.list > div.item:has(> a[target="_blank"])
+webspor102.xyz,webspor103.xyz,webspor104.xyz,webspor105.xyz,webspor106.xyz,webspor107.xyz,webspor108.xyz,webspor109.xyz,webspor110.xyz,webspor111.xyz,webspor112.xyz,webspor113.xyz,webspor114.xyz,webspor115.xyz,webspor116.xyz,webspor117.xyz,webspor118.xyz,webspor119.xyz,webspor120.xyz,webspor121.xyz,webspor122.xyz,webspor123.xyz,webspor124.xyz,webspor125.xyz#$?#video > style { remove: true; }
+!#endif
 !
 ! dizikral*.pro - frequently changed domains
 [$domain=/dizikral\d+.pro/]#$#body > header { margin-top: 0 !important; }

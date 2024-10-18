@@ -3869,17 +3869,16 @@ idlixofficialx.*,idlixplus.*#%#//scriptlet('abort-on-stack-trace', 'DOMTokenList
 rejabar.republika.co.id##img[width="320px"][height="100px"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173572
 ||amp.lk21official.mom/xjs.js
-playeriframe.shop###admad
-playeriframe.shop###donate
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172466
 rumahperjaka.live##div[id^="floatbanner"]
 ||rumahperjaka.live/wp-content/uploads/*/*.gif
 rumahperjaka.live###elementor-popup-modal-873
 rumahperjaka.live###floating_banner_top
 rumahperjaka.live##.elementor-widget-wrap > section[data-id][data-element_type].elementor-inner-section
+! https://github.com/AdguardTeam/AdguardFilters/issues/191017
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172122
-lk21official.life,sekedarinfo.*,jujijaji.*###donate
-lk21official.life,playeriframe.shop###admad
+lk21official.life,sekedarinfo.*,jujijaji.*,playeriframe.*###donate
+lk21official.life,playeriframe.*###admad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172422
 nontonhentai.top##.kln
 nontonhentai.top##div[id^="teaser"]
@@ -4535,6 +4534,8 @@ smellyfisher.com##.providers
 bestmovie.it,treccani.it##.gmp
 forum.fibra.click##.FibraClickAds-fake-poststream-item
 open.online##a[rel="sponsored"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191080
+video.sky.it##.c-adv-generic
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188802
 tv8.it##main div[type="atf-btf"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188839
@@ -6099,6 +6100,7 @@ annapurnapost.com##.sticky-footer
 !---------------------------------------------------------------------
 ! NOTE: Norwegian
 !
+gamer.no##[data-uname^="gamer_skyskraper_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188809
 dagens.no##.column > div[data-type="generic-widget"]:has(> div.group > div.code-element > a[href^="https://www.partner-ads.com/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175518
@@ -6256,6 +6258,13 @@ gospodarkamorska.pl##.Home_categories_box > div.polecamy-slider > div[class*="po
 instalki.pl##center > a.gofollow > img
 onet.pl##a[href^="https://milionymonet.onet.pl/"]
 pograne.eu###custom_html-8
+! https://github.com/AdguardTeam/AdguardFilters/issues/191092
+||wiocha.pl/js/placements.js
+||wiocha.pl/js/plmnts/mrec*.js
+wiocha.pl##div[id^="wiocha_pl_"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191088
+espresso.com.pl##.espresso-reklama
+espresso.com.pl##.espresso-wrapper:has(.espresso-inner > .adsbygoogle)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190967
 realmadryt.pl#@#fieldset
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190883
@@ -6765,18 +6774,21 @@ megane.com.pl#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=megane.com.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159778
 nieznany-numer.pl##.content div[style="height:280px"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191098
+! https://github.com/AdguardTeam/AdguardFilters/issues/191097
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174032
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174033
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169786
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168285
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168272
 ! Speed up loading video player
-pacjenci.pl,rolnikinfo.pl,turysci.pl,portalparentingowy.pl,biznesinfo.pl,lelum.pl,goniec.pl#%#//scriptlet('adjust-setTimeout', '/moviesetdelayed|0x|waitingForUserConsent/', '*', '0.001')
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=goniec.pl|lelum.pl|biznesinfo.pl|portalparentingowy.pl|pacjenci.pl|rolnikinfo.pl|turysci.pl
-pacjenci.pl,rolnikinfo.pl,turysci.pl,portalparentingowy.pl,biznesinfo.pl,lelum.pl,goniec.pl#?#div:is(.w-full, .col-span-3) > .items-center[style*="min-height:"]:has(> .ad-placeholder)
-portalparentingowy.pl###anchor
+domekiogrodek.pl,swiatzwierzat.pl,smakosze.pl,pacjenci.pl,rolnikinfo.pl,turysci.pl,portalparentingowy.pl,biznesinfo.pl,lelum.pl,goniec.pl#%#//scriptlet('adjust-setTimeout', '/moviesetdelayed|0x|waitingForUserConsent/', '*', '0.001')
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=goniec.pl|lelum.pl|biznesinfo.pl|portalparentingowy.pl|pacjenci.pl|rolnikinfo.pl|turysci.pl|smakosze.pl|swiatzwierzat.pl|domekiogrodek.pl
+domekiogrodek.pl,swiatzwierzat.pl,smakosze.pl,pacjenci.pl,rolnikinfo.pl,turysci.pl,portalparentingowy.pl,biznesinfo.pl,lelum.pl,goniec.pl##div:is(.w-full, .col-span-3) > .items-center[style*="min-height:"]:has(> .ad-placeholder)
+domekiogrodek.pl,portalparentingowy.pl###anchor
+domekiogrodek.pl,swiatzwierzat.pl##.scrollAd
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goniec.pl|lelum.pl|biznesinfo.pl|portalparentingowy.pl|pacjenci.pl|rolnikinfo.pl|turysci.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goniec.pl|lelum.pl|biznesinfo.pl|portalparentingowy.pl|pacjenci.pl|rolnikinfo.pl|turysci.pl|smakosze.pl|swiatzwierzat.pl|domekiogrodek.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159703
 goniec.pl#?#.col-span-3 > .justify-center:has(> .ad-placeholder:only-child)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159250
@@ -6918,9 +6930,11 @@ stacja7.pl##.st7-products
 stacja7.pl##.st7-ad-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146353
 disco-polo.eu#?#.elementor-widget-container > div[style*="width"]:has(> center > ins.adsbygoogle)
+! https://github.com/AdguardTeam/AdguardFilters/issues/191037
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146065
-press.pl##.banner_holder
 press.pl#?#.posts_day_container:has(> .wide_big_post > .post_slider > .post_slide > div[style^="position: absolute;"]:contains(/^REKLAMA$/))
+!+ NOT_OPTIMIZED
+press.pl##.banner_holder
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145357
 e-pity.pl##.AdvertBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145525
