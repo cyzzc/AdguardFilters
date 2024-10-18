@@ -3869,17 +3869,16 @@ idlixofficialx.*,idlixplus.*#%#//scriptlet('abort-on-stack-trace', 'DOMTokenList
 rejabar.republika.co.id##img[width="320px"][height="100px"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173572
 ||amp.lk21official.mom/xjs.js
-playeriframe.shop###admad
-playeriframe.shop###donate
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172466
 rumahperjaka.live##div[id^="floatbanner"]
 ||rumahperjaka.live/wp-content/uploads/*/*.gif
 rumahperjaka.live###elementor-popup-modal-873
 rumahperjaka.live###floating_banner_top
 rumahperjaka.live##.elementor-widget-wrap > section[data-id][data-element_type].elementor-inner-section
+! https://github.com/AdguardTeam/AdguardFilters/issues/191017
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172122
-lk21official.life,sekedarinfo.*,jujijaji.*###donate
-lk21official.life,playeriframe.shop###admad
+lk21official.life,sekedarinfo.*,jujijaji.*,playeriframe.*###donate
+lk21official.life,playeriframe.*###admad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172422
 nontonhentai.top##.kln
 nontonhentai.top##div[id^="teaser"]
@@ -6099,6 +6098,7 @@ annapurnapost.com##.sticky-footer
 !---------------------------------------------------------------------
 ! NOTE: Norwegian
 !
+gamer.no##[data-uname^="gamer_skyskraper_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188809
 dagens.no##.column > div[data-type="generic-widget"]:has(> div.group > div.code-element > a[href^="https://www.partner-ads.com/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175518
@@ -6918,9 +6918,11 @@ stacja7.pl##.st7-products
 stacja7.pl##.st7-ad-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146353
 disco-polo.eu#?#.elementor-widget-container > div[style*="width"]:has(> center > ins.adsbygoogle)
+! https://github.com/AdguardTeam/AdguardFilters/issues/191037
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146065
-press.pl##.banner_holder
 press.pl#?#.posts_day_container:has(> .wide_big_post > .post_slider > .post_slide > div[style^="position: absolute;"]:contains(/^REKLAMA$/))
+!+ NOT_OPTIMIZED
+press.pl##.banner_holder
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145357
 e-pity.pl##.AdvertBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145525
