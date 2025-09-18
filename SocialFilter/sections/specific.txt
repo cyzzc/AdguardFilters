@@ -87,6 +87,7 @@ antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogamesc
 !
 ! NOTE: Specific rules
 !
+security-insider.de##.inf-toolbar > a:not(.inf-icon--mail, .inf-icon--print, .inf-icon--download, .inf-icon--bookmark)
 zena.aktualne.cz##.e-web-zena-ui-share
 seikei.med.saga-u.ac.jp##aside[class]:has(> div.col-auto > div.d-inline-block > svg[data-icon="share-alt"])
 qz.com##.flex-nowrap.gap-2.group:has(> a[title^="Share to"])
@@ -2389,7 +2390,7 @@ watabe-wedding.co.jp###SnsShare
 iprimo.jp##.detail_column_sns
 horimiya-anime.com##.p-nav__snslist
 nippon.com##div[name="addthis_tools"]
-kayiprihtim.com,glassalmanac.com,karanpc.com,mrmad.com.tw##.ns-buttons
+conservativebrief.com,kayiprihtim.com,glassalmanac.com,karanpc.com,mrmad.com.tw##.ns-buttons
 food.ru##div[class^="shareRateMaterial_"] > div[class^="shareRateMaterial_contentItem"]:last-child
 iodonna.it##.eltdf-woo-social-share-holder
 google.com##.xzCJ9 > div[jscontroller] + div[class]
