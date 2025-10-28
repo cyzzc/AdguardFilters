@@ -787,6 +787,8 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+krakenfiles.com##.native-banner
+no-limits.biz##.p-body-sidebar > p:has(> a[href^="https://www.plugrush.com/"])
 celebmafia.com##.wp-caption > div[class]:has(> .adsbyvli)
 ||sarugbymag.co.za/cube-betbus.html
 ||buzzzoo.net/widget/js/jquery.buzzzslotwidget.js
@@ -1814,7 +1816,7 @@ crypt.cybar.xyz,gamedrive.org#%#//scriptlet('prevent-addEventListener', 'click',
 steam-repacks.net##.single-post > div[style] > a[target="_blank"]
 manga1.org##.sektion-wrapper
 manga1.org###execphp-2
-likemanga.*,brokensilenze.net,kaliscan.me,fastream.to,hdhentai.tv#%#//scriptlet('abort-current-inline-script', 'Node.prototype.insertBefore', 'pop1stp')
+animeyy.com,likemanga.*,brokensilenze.net,kaliscan.me,fastream.to,hdhentai.tv#%#//scriptlet('abort-current-inline-script', 'Node.prototype.insertBefore', 'pop1stp')
 metacritic.com##.c-expressvpn
 apnews.com#$#:root { --stickyPos: 0 !important; }
 wouterplanet.com###minigameplayer > .container > .panel:has(> .panel-body > ng-adsense)
@@ -19679,7 +19681,8 @@ charismanews.com#$##headerAreaWrap { height: 180px !important; }
 !
 ! check-host.net
 ! Make sure that https://check-host.net/about/api is not broken
-check-host.net##div[class]:has(> [class] > [src*="close"])
+check-host.net##div[id^="amtpeayvrkea"]
+check-host.net##div[class]:has(> [class^="alxan"])
 check-host.net#%#//scriptlet('trusted-set-cookie', 'closey_advertisments', 'privatealps,alexhost,pp-liaryt2,pp-liaryt,u1host-rep,waic-b')
 check-host.net##div[class*="border-l-8"]
 ||check-host.net/images/palps.png
