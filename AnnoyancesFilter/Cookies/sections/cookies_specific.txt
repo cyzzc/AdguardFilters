@@ -316,7 +316,7 @@ cdn.privacy-mgmt.com#%#//scriptlet('trusted-click-element', '.sp_choice_type_ACC
 codesandbox.io,damota.me,pracazarogiem.pl,pracezarohem.cz,pracazarohom.sk,seduo.*#%#//scriptlet('remove-class', 'force--consent|show--consent', 'html')
 ||cdn.jsdelivr.net/npm/@lmc-eu/cookie-consent-manager$domain=teamio.com
 ! orestbida/cookieconsent
-/cookieconsent.$domain=qrcodemonkey.net|wedos.com|scssoft.com|umino.io|sklep.ledlumen.pl|megasobota.pl|emunia.pl
+/cookieconsent.$domain=qrcodemonkey.net|wedos.com|scssoft.com|umino.io|sklep.ledlumen.pl|megasobota.pl|emunia.pl|proxmox.com
 ! GitBook instances
 help.lurker.tv,help.zenky.io,docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io,developers.deepl.com##[aria-label="Cookies"]
 !
@@ -349,6 +349,14 @@ raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apothe
 !
 ! NOTE: Regular rules
 !
+kyivstar.ua#%#//scriptlet('trusted-set-cookie', 'cookies_agreement', 'granted')
+kyivstar.ua#%#//scriptlet('trusted-set-cookie', 'ad_personalization', 'denied')
+kyivstar.ua#%#//scriptlet('trusted-set-cookie', 'ad_storage', 'denied')
+kyivstar.ua#%#//scriptlet('trusted-set-cookie', 'ad_user_data', 'denied')
+kyivstar.ua#%#//scriptlet('trusted-set-cookie', 'analytics_storage', 'denied')
+kyivstar.ua#%#//scriptlet('trusted-set-cookie', 'functionality_storage', 'denied')
+kyivstar.ua#%#//scriptlet('trusted-set-cookie', 'security_storage', 'denied')
+office-inhouse-schulung.de#%#//scriptlet('trusted-click-element', 'dialog[data-lenis-prevent="true"] a[role="button"]:first-child', '!cookie:/real_cookie_banner-v/')
 asv.org.ru##app-notification-cookie
 prav.io###privacy-widget
 revolutionrace.pl#$#body.body--modal { position: static !important; }
